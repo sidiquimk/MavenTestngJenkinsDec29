@@ -12,6 +12,7 @@ public class BaseClass {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com.ar/");
+		driver.manage().window().maximize();
 	}
 
 }
