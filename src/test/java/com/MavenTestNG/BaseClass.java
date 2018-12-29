@@ -14,6 +14,7 @@ public class BaseClass {
 		driver.get("https://www.google.com.ar/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().equals(asd)
+		driver.manage().timeouts().equals(asd)
 	}
 
 }
