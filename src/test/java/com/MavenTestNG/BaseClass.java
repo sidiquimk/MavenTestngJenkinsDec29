@@ -12,7 +12,8 @@ public class BaseClass {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com.ar/");
-		driver.manage().window().maximiz();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().equals(asd)
 	}
 
 }
